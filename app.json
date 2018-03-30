@@ -3,12 +3,25 @@
     "pages/hotcourse/list/list",
     "pages/hotcourse/item/item",
     "pages/index/index",
-    "pages/logs/logs"       
+    "pages/popular-goods-list/popular-goods-list",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "过啦",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[{
+        "pagePath":"pages/index/index",
+        "text":"首页"
+      }, {
+        "pagePath":"pages/popular-goods-list/popular-goods-list",
+        "text":"热门课程"
+      }, {
+        "pagePath":"pages/my/my",
+        "text":"我的"
+      }]
   }
 }
