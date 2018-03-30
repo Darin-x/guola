@@ -1,0 +1,15 @@
+<view class="hotcourse">
+    <view></view>
+    <view class="hotcourse-list">
+        <navigator wx:for="{{courses}}" wx:key="" url="/pages/hotcourse/item/item?id={{item.id}}">
+            <view class="item" >
+              <image class="cover" src="{{item.imgUrl}}" mode="scaleToFill"></image>
+              <view>
+                  <text class="title">{{item.name}}</text>
+                  <text class="teacher">{{item.teacher}}</text>
+                  <text class="price">{{item.price}}</text>
+              </view>
+            </view>            
+        </navigator>    
+    </view>    
+</view>

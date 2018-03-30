@@ -1,7 +1,9 @@
 {
   "pages":[
+    "pages/hotcourse/list/list",
+    "pages/hotcourse/item/item",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs"       
   ],
   "window":{
     "backgroundTextStyle":"light",

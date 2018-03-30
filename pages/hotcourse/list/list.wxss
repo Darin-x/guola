@@ -1,0 +1,10 @@
+.hotcourse-list scroll-view{
+  padding: 0 30rpx;
+}
+.hotcourse-list .item {
+  width: 50%;
+}
+.hotcourse-list .cover {
+    width: 100%;
+    height: 200rpx;
+}
